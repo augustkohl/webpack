@@ -1,0 +1,30 @@
+{
+  "name": "webpack-basic",
+  "version": "1.0.0",
+  "description": "Learning all about webpack 4",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "prod": "webpack --mode production"
+  },
+  "keywords": [
+    "webpack",
+    "preprocessing",
+    "react"
+  ],
+  "author": "Cesar Kohl",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
